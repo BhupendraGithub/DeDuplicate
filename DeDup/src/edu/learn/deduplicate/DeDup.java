@@ -71,7 +71,7 @@ public class DeDup {
 	 * @return int[]
 	 */
 	public int[] getNonDuplicateArrayByLinearSearch() {
-		// TreeMap to store duplicate locations in array list.
+		// Apache Commons #TreeList could be also used against TreeMap.
 		Map<Integer, Integer> duplicateMap = new TreeMap();
 		for (int counter1 = 0; counter1 < randomIntegers.length; counter1++) {
 			Iterator iter = duplicateMap.keySet().iterator();
