@@ -58,15 +58,15 @@ public class DeDup {
 	 * is distinctively other search algorithms and each algorithm has its own
 	 * consecutive order of search.
 	 * 
-	 * For example binary required "order of sorting" as prerequisite before
-	 * performing search over numbers list.
+	 * For example binary search required "order of sorting" as prerequisite before
+	 * performing search over number list.
 	 * 
 	 * The method also maintains the order of the numbers in the list and
-	 * preserves the sequence of the number. In other search algorithms like
+	 * preserves the sequence of the numbers. In other search algorithms like
 	 * binary search/tree search distrupt the order of the list and also add
 	 * additional step of sorting before doing the search over number list and
 	 * increase the O notation from from O(n) to O(n log(n)) or O(n^2) based on
-	 * sorting method used for binary search / Tree Search.
+	 * sorting method used for binary search / tree Search.
 	 * 
 	 * @return int[]
 	 */
@@ -100,7 +100,7 @@ public class DeDup {
 
 	/**
 	 * getNonDuplicateArrayBySet is method to get distinct numbers out of
-	 * duplicate list through java Set. This is use of java HashSet and hashing
+	 * duplicate list through java Set. This use java HashSet and hashing
 	 * mechanism to get distinct numbers.
 	 * 
 	 * @return int[]
@@ -114,8 +114,8 @@ public class DeDup {
 
 	/**
 	 * getNonDuplicateArrayBySort is method to get distinct numbers out of
-	 * duplicate list through Sort. This is use of Java 8 through stream sort
-	 * then removing duplicate numbers
+	 * duplicate list through Sort. This use Java 8 through stream sort
+	 * then removing duplicate numbers.
 	 * 
 	 * @return int[]
 	 */
